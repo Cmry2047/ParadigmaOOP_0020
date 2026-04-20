@@ -18,18 +18,18 @@ class Barang{
 
 
 int main(){
-    Barang B1;
-    B1.nama = "Samsung A56";
-    B1.jumlah = 10;
-    B1.kategori = "Elektronik";
-    B1.tanggalProduksi = 2025;
+    Barang Elektronik;
+    Elektronik.nama = "Samsung A56";
+    Elektronik.jumlah = 10;
+    Elektronik.kategori = "Elektronik";
+    Elektronik.tanggalProduksi = 20250315;
 
-    Barang B2;
-    B2.nama = "Buku Dasar Pemrograman C++";
-    B2.jumlah = 50;
-    B2.kategori = "nonElektronik";
-    B2.tanggalProduksi = 2023;
+    Barang nonElektronik;
+    nonElektronik.nama = "Buku Dasar Pemrograman C++";
+    nonElektronik.jumlah = 50;
+    nonElektronik.kategori = "Non Elektronik";
+    nonElektronik.tanggalProduksi = 20231128;
 
-    B1.printData();
-    B2.printData();
+    Elektronik.printData();
+    nonElektronik.printData();
 }
